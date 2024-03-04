@@ -5,7 +5,7 @@ import matplotlib.pyplot as mat
 import seaborn as sea
 import streamlit as lit
 
-bikehour = pd.read_csv("https://raw.githubusercontent.com/Denino04/Streamlit/main/Bangkit%20Tugas/Dashboard/Main%20Data%20(hour).csv")
+bikehour = pd.read_csv("https://raw.githubusercontent.com/Denino04/Streamlit/main/Bangkit_tugas/dashboard/Main%20Data%20(hour).csv")
 bikehour = pd.DataFrame(bikehour)
 
 lit.title("Analisis Penggunaan Sepeda")
