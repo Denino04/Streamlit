@@ -4,8 +4,6 @@ import matplotlib as plt
 import matplotlib.pyplot as mat
 import seaborn as sea
 import streamlit as lit
-import streamlit_option_menu
-from streamlit_option_menu import option_menu
 
 bikehour = pd.read_csv("https://raw.githubusercontent.com/Denino04/Streamlit/main/Bangkit%20Tugas/Dashboard/Main%20Data%20(hour).csv")
 bikehour = pd.DataFrame(bikehour)
